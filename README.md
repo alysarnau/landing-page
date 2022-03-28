@@ -10,3 +10,5 @@ Image attribution!
 3.jpg -> https://www.pexels.com/photo/plume-11426101/
 
 4.jpg -> https://www.pexels.com/photo/unrecognizable-female-hand-holding-bunch-of-exotic-extraordinary-flowers-11027273/
+
+photo.jpg -> https://www.pexels.com/photo/grayscale-photo-of-a-banana-leaves-10220184/ 
