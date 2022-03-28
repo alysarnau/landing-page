@@ -97,8 +97,7 @@ ul {
 .cta {
     display: flex;
     background-color: #3882F6;
-    color: white
-    flex: 1;
+    color: white;
     justify-content: center;
     align-items: center;
 }
