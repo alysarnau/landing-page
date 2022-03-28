@@ -73,6 +73,7 @@ ul {
 .quote {
   background-color: #E5E7EB;
   flex: 1;
+  padding: 100px 150px;
 }
 
 /*not working as intended*/
