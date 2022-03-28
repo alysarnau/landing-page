@@ -6,8 +6,8 @@
 
 img {
     border-radius: 25px;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -47,6 +47,15 @@ ul {
   color: white;
 }
 
+.hero {
+    flex: 1;
+}
+
+.information {
+    text-align: center;
+    flex: 1;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -57,8 +66,13 @@ ul {
     max-width: 300px;
 }
 
+#info {
+    border: 2px solid blue;
+}
+
 .quote {
   background-color: #E5E7EB;
+  flex: 1;
 }
 
 /*not working as intended*/
