@@ -26,6 +26,7 @@ button {
     padding: 15px 32px;
     text-decoration: none;
     font-size: 16px;
+    border-radius: 12px;
 }
 
 .box,
@@ -57,6 +58,10 @@ button {
     max-width: 50px;
 }
 
+h1 {
+    margin: 0;
+}
+
 h2 {
     color: #1F2937;
     font-size: 36px;
@@ -85,12 +90,28 @@ ul {
 .hero {
     justify-content: space-evenly;
     align-items: center;
+}
 
+.lefthero {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.herodesc {
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.signup {
+    flex: 1 0 auto;
+    max-width: 200px;
 }
 
 .hero .leaves {
     height: 200px;
     width: 400px;
+    padding: 50px;
 }
 /*adding these dimensions caused the information section to get shrunk down */
 
