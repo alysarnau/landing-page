@@ -35,9 +35,20 @@ button {
     /*height: 400px;*/
 }
 
-.box,
-.topbox {
-    flex: 1 0 400px;
+.hero,
+.information,
+.quote,
+.cta {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box-wrapper,
+.topbox,
+.quote-wrapper {
+    flex: 1 0 auto;
+    width: 100vw;
+    justify-content: center;
 }
 
 .topbox,
@@ -135,8 +146,11 @@ ul {
     border: 2px solid #3882F6;
 }
 
+.quote-wrapper {
+    background-color: #E5E7EB;
+}
+
 .quote {
-  background-color: #E5E7EB;
   flex: 1 1 auto;
   padding: 100px 150px;
   justify-content: space-evenly;
@@ -161,10 +175,11 @@ ul {
 .cta {
     display: flex;
     background-color: #3882F6;
-    flex: 1 0;
     color: white;
     justify-content: space-evenly;
     align-items: center;
+    margin: 100px 200px;
+    border-radius: 25px;
 }
 
 .cta button {
