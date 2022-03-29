@@ -31,7 +31,7 @@ button {
 
 .box,
 .topbox {
-    min-height: 400px;
+    /*min-height: 400px;*/
     display: flex;
 }
 
@@ -40,7 +40,7 @@ button {
 .quote,
 .cta {
     flex: 1 0 auto;
-    height: 300px;
+    /*height: 400px;*/
 }
 
 .topbox {
@@ -136,7 +136,7 @@ ul {
 
 .quote {
   background-color: #E5E7EB;
-  flex: 1;
+  flex: 1 1 auto;
   padding: 100px 150px;
 }
 
@@ -145,6 +145,11 @@ ul {
   font-weight: 300;
   font-size: 36px;
   color: #1F2937;
+}
+
+.quote #attribution {
+    justify-content: flex-end;
+    text-align: right;
 }
 
 /* the modal exercise will help here */
